@@ -1,0 +1,5 @@
+
+[Desktop Entry]
+  Name=Bash Session
+  Exec=bash -i
+  Terminal=true
