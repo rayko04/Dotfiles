@@ -29,3 +29,5 @@ PS1="\[\033[0;31m\][\u \w]\$ \[\033[0;37m\]"
 
 export PATH=~/bin:"$PATH"
 . "$HOME/.cargo/env"
+
+export HYPRSHOT_DIR="$HOME/Pictures/Screenshots"

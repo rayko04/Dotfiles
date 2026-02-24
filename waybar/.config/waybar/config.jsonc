@@ -9,8 +9,7 @@
     "backlight",
     "pulseaudio",
     "network",
-    "custom/wifi",
-    "custom/bluetooth",
+    "bluetooth",
     "cpu",
     "memory",
     "battery",
@@ -55,18 +54,13 @@
     "format-wifi": " {essid} ({signalStrength}%)",
     "format-ethernet": " {ifname}",
     "format-disconnected": "󰖪 Disconnected",
+    "on-click": "nmgui",
     "tooltip-format": "{ifname} via {gwaddr}"
   },
 
-    "custom/wifi": {
-        "format": "󰤨",
-        "on-click": "~/.local/bin/wifi-menu.sh",
-        "tooltip": false
-    },
-    
-    "custom/bluetooth": {
+    "bluetooth": {
       "format": "󰂯",
-      "on-click": "~/.local/bin/bluetooth-menu.sh",
+      "on-click": "blueman-manager",
       "tooltip": false
     },
 
